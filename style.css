@@ -1,0 +1,51 @@
+body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+td {
+    padding: 25px 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background:burlywood;
+}
+div#scoreboard {
+    display: none;
+    border: 2px solid orange;
+    padding-bottom: 25px;
+}
+button#playAgain {
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    background: orange;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+button#clear {
+    border-radius: 20px;
+    border: none;
+    padding: 12px;
+    background: none;
+    border: 2px solid orange;
+    color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2#msg {
+    display: block;
+    background: orange;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    text-transform: uppercase;
+}
+button {
+    margin-top: 30px;
+}
